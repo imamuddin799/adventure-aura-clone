@@ -1,9 +1,12 @@
+import { Outlet } from "react-router-dom"
+import NavBar from "./components/NavBar"
 
 const App = () => {
-   return <>
-       <div>
-           App
-       </div>
+    return <>
+        <section className="w-screen">
+            <NavBar />
+            <Outlet />
+       </section>
    </>
 }
 
