@@ -2,7 +2,7 @@ import explore from '../assets/images/contact/explore.jpg'
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-
+import Footer from '../components/Footer';
 
 let Contact = () => {
     return <>
@@ -35,8 +35,8 @@ let Contact = () => {
                 </div>
             </div>
         </section>
-        <section className=" w-screen flex h-full justify-center items-center -mt-40 relative z-20">
-            <div className=" w-[80%] h-full flex flex-col py-15 rounded-t-[60px] bg-white">
+        <section className="w-screen flex h-full justify-center items-center -mt-35 relative z-20">
+            <div className="w-[80%] h-full flex flex-col py-15 rounded-t-[60px] bg-white">
                 <div className="w-full flex justify-between items-start mb-30">
                     <div className="w-[60%] h-full px-10">
                         <form action="">
@@ -99,6 +99,7 @@ let Contact = () => {
                 </div>
             </div>
         </section>
+        <Footer />
     </>
 }
 
